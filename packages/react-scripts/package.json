@@ -1,10 +1,10 @@
 {
-  "name": "react-scripts",
+  "name": "ipsm-react-scripts",
   "version": "3.2.0",
   "description": "Configuration and scripts for Create React App.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/vlad.plotnik/create-react-app.git",
     "directory": "packages/react-scripts"
   },
   "license": "MIT",
@@ -12,7 +12,7 @@
     "node": ">=8.10"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/vlad.plotnik/create-react-app/issues"
   },
   "files": [
     "bin",
@@ -35,6 +35,7 @@
     "babel-eslint": "10.0.3",
     "babel-jest": "^24.9.0",
     "babel-loader": "8.0.6",
+    "babel-plugin-import": "^1.12.0",
     "babel-plugin-named-asset-import": "^0.3.4",
     "babel-preset-react-app": "^9.0.2",
     "camelcase": "^5.2.0",
@@ -58,6 +59,7 @@
     "jest-environment-jsdom-fourteen": "0.1.0",
     "jest-resolve": "24.9.0",
     "jest-watch-typeahead": "0.4.0",
+    "less-loader": "^5.0.0",
     "mini-css-extract-plugin": "0.8.0",
     "optimize-css-assets-webpack-plugin": "5.0.3",
     "pnp-webpack-plugin": "1.5.0",
@@ -99,5 +101,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "publishConfig": {
+    "registry": "http://npm.brandstock.com"
   }
 }
